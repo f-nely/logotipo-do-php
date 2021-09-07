@@ -14,3 +14,25 @@ body {
     font-family: 'Open Sans';
 }
 
+.logotipo-php {
+    background: linear-gradient(to left, rgb(57, 58, 87), rgb(119, 123, 179));
+    padding: 5px;
+    border-radius: 100%;
+}
+
+.borda-logotipo-php {
+    background-color: rgb(119, 123, 179);
+    padding: 5px 25px;
+    border-radius: 100%;
+}
+
+.borda-logotipo-php p {
+    font-size: 64px;
+    font-weight: 900;
+    transform: skew(-15deg);
+    text-shadow:  2px 2px 0 #fff,
+                 -2px -2px 0 #fff,
+                  2px -2px 0 #fff,
+                 -2px 2px 0 #fff;
+}
+
